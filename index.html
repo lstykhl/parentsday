@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>正在前往：家長日報到系統...</title>
+  
+  <!-- 瞬間重新導向 (Meta Refresh) -->
+  <meta http-equiv="refresh" content="0;url=https://script.google.com/a/macros/lstyoungkhl.edu.hk/s/AKfycbz07ZZ4PXWXymglDbG-GZ4M9nYtavm_cZ6Ekm-fabpjVP8HvbTTDsTpQr12mWp6HpCb_g/exec">
+  
+  <!-- 引入 Google Fonts 與 Tailwind 保持風格一致 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { bh: { fg: '#121212', blue: '#1040C0', yellow: '#F0C020' } },
+          fontFamily: { sans: ['Outfit', 'sans-serif', '微軟正黑體'] },
+          boxShadow: { 'bh-lg': '8px 8px 0px 0px #121212' }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#F0F0F0] text-[#121212] min-h-screen flex items-center justify-center p-4">
+
+  <div class="max-w-md w-full border-4 border-bh-fg bg-white shadow-bh-lg p-8 text-center">
+    <div class="w-12 h-12 bg-bh-yellow border-2 border-bh-fg mx-auto mb-6 rotate-45"></div>
+    
+    <h1 class="text-3xl font-black uppercase tracking-tighter mb-4">Redirecting...</h1>
+    <p class="font-medium text-gray-600 mb-8">
+      正在轉跳至家長日系統，如果畫面沒有自動跳轉，請點擊下方按鈕：
+    </p>
+
+    <a href="https://script.google.com/a/macros/lstyoungkhl.edu.hk/s/AKfycbz07ZZ4PXWXymglDbG-GZ4M9nYtavm_cZ6Ekm-fabpjVP8HvbTTDsTpQr12mWp6HpCb_g/exec" 
+       class="inline-block w-full bg-bh-blue text-white border-4 border-bh-fg shadow-[4px_4px_0px_0px_#121212] py-4 font-black text-xl uppercase tracking-wider active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all">
+      進入系統 / OPEN APP
+    </a>
+  </div>
+
+  <!-- JavaScript 雙重保險跳轉 -->
+  <script>
+    window.location.href = "https://script.google.com/a/macros/lstyoungkhl.edu.hk/s/AKfycbz07ZZ4PXWXymglDbG-GZ4M9nYtavm_cZ6Ekm-fabpjVP8HvbTTDsTpQr12mWp6HpCb_g/exec";
+  </script>
+
+</body>
+</html>
